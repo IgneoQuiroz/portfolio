@@ -167,8 +167,30 @@ footer {
   margin-top: 0;
 }
 
-/* Responsive */
+/* Contacto */
+.contact-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 32px;
+}
+.contact-links a {
+  padding: 10px 16px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  font-weight: 500;
+}
+.contact-links a:hover {
+  border-color: var(--text);
+  text-decoration: none;
+}
+.contact-links a:focus-visible {
+  outline: 2px solid var(--text);
+  outline-offset: 3px;
+}
 
+
+/* Responsive */
 @media (max-width: 768px) {
   nav {
     gap: 12px 20px;
