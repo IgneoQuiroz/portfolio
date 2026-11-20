@@ -21,46 +21,81 @@
 
   <main>
     <section id="inicio">
-      <h1>Desarrollador Web</h1>
-      
-      <p>Desarrollador web con experiencia en la creación de sitios personalizados utilizando HTML, CSS, JavaScript, PHP y WordPress.</p>
-      <p>He trabajado en proyectos profesionales y colaborativos, participando tanto en el diseño como en el desarrollo de interfaces y soluciones web dinámicas.</p>
-      <p>Actualmente estoy ampliando mis conocimientos hacia el desarrollo de aplicaciones Full Stack.</p>
+      <div class="hero">
+        <p class="hero-label">PORTAFOLIO PROFESIONAL</p>
+
+        <h1>Igneo Quiroz Rojas</h1>
+        <h2>Desarrollador Web</h2>
+
+        <div class="hero-description">
+          <p>Desarrollador web con experiencia en la creación de sitios personalizados utilizando HTML, CSS, JavaScript, PHP y WordPress.</p>
+          <p>He trabajado en proyectos profesionales y colaborativos, participando tanto en el diseño como en el desarrollo de interfaces y soluciones web dinámicas.</p>
+          <p>Actualmente estoy ampliando mis conocimientos hacia el desarrollo de aplicaciones Full Stack.</p>
+        </div>
+
+        <a class="hero-link" hero-link>Ver proyectos</a>
+      </div>
+
     </section>
 
     <section id="proyectos">
       <h2>Proyectos</h2>
 
-      <article>
-        <h3>Cisterna y Cía.</h3>
-        <p>Desarrollo Web | WordPress personalizado</p>
-        <p>Desarrollo y mantenimiento de un sitio web corporativo para una empresa del sector metalmecánico.</p>
-        <p>Implementación de templates personalizados mediante PHP y Advanced Custom Fields (ACF), integrando contenido dinámico y adaptando las interfaces a las necesidades del proyecto.</p>
-        <p>WordPress, PHP, ACF, HTML, CSS, JavaScript.</p>
-        <a href="https://cisternaycia.cl/" target="_blank" rel="noopener noreferrer">Ver proyecto</a>
+      <article class="project">
+        <div class="project-image">
+          <img src="assets/images/cisterna.png" alt="Captura del sitio web Cisterna y Cía." loading="lazy">
+        </div>
+        <div class="project-content">
+          <h3>Cisterna y Cía.</h3>
+          <p class="project-type">Desarrollo Web | WordPress personalizado</p>
+          <p>Desarrollo y mantenimiento de un sitio web corporativo para una empresa del sector metalmecánico.</p>
+          <p>Implementación de templates personalizados mediante PHP y Advanced Custom Fields (ACF), integrando contenido dinámico y adaptando las interfaces a las necesidades del proyecto.</p>
+          <p class="project-tech">WordPress, PHP, ACF, HTML, CSS, JavaScript.</p>
+          <a href="https://cisternaycia.cl/" target="_blank" rel="noopener noreferrer">Ver proyecto</a>
+        </div>
       </article>
 
-      <article>
-        <h3>COLCA</h3>
-        <p>Desarrollo Frontend | Proyecto colaborativo</p>
-        <p>Participación en el desarrollo de una landing page, implementando interfaces responsive con HTML, CSS y JavaScript.</p>
-        <p>Trabajo colaborativo mediante Git y GitHub, utilizando ramas de desarrollo, control de versiones y componentes personalizados.</p>
-        <p>HTML, CSS, JavaScript, Git, GitHub.</p>
+      <article class="project project--no-image">
+        <div class="project-content">
+          <h3>COLCA</h3>
+          <p class="project-type">Desarrollo Frontend | Proyecto colaborativo</p>
+          <p>Participación en el desarrollo de una landing page, implementando interfaces responsive con HTML, CSS y JavaScript.</p>
+          <p>Trabajo colaborativo mediante Git y GitHub, utilizando ramas de desarrollo, control de versiones y componentes personalizados.</p>
+          <p class="project-tech">HTML, CSS, JavaScript, Git, GitHub.</p>
+        </div>
       </article>
     </section>
 
     <section id="habilidades">
       <h2>Habilidades</h2>
-      <h3>Desarrollo web</h3>
-      <p>HTML, CSS, JavaScript, PHP</p>
-      <h3>CMS y herramientas</h3>
-      <p>WordPress, Advanced Custom Fields (ACF), Elementor, Bootstrap</p>
-      <h3>Control de versiones</h3>
-      <p>Git, GitHub</p>
-      <h3>Diseño y multimedia</h3>
-      <p>Photoshop, Illustrator, Adobe XD, DaVinci Resolve</p>
-      <h3>Entorno de desarrollo</h3>
-      <p>Visual Studio Code</p>
+
+      <div class="skills-grid">
+        <div>
+          <h3>Desarrollo web</h3>
+          <p>HTML, CSS, JavaScript, PHP</p>          
+        </div>
+
+        <div>
+          <h3>CMS y herramientas</h3>
+          <p>WordPress, Advanced Custom Fields (ACF), Elementor, Bootstrap</p>          
+        </div>
+
+        <div>
+          <h3>Control de versiones</h3>
+          <p>Git, GitHub</p>          
+        </div>
+
+        <div>
+          <h3>Diseño y multimedia</h3>
+          <p>Photoshop, Illustrator, Adobe XD, DaVinci Resolve</p>          
+        </div>
+        
+        <div>
+          <h3>Entorno de desarrollo</h3>
+          <p>Visual Studio Code</p>          
+        </div>
+      </div>
+
     </section>
 
     <section id="contacto">
